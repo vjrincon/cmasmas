@@ -699,30 +699,32 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}	
-			break;		
+			break;	
+			//Preguntas hechas por Estefany Sequera y Jeison Coronado	
 			case 5:
 					cout<<"CONSTRUIR LA BASE DE DATOS "<<endl; 
-					cout<<"1-¿Que es Mantenimiento de equipo de computo basico?"<<endl;
-					cout<<"a)procedimiento de limpieza  y sustitucion de pieza "<<endl;
-					cout<<"b)procedimiento para mantener y programar aplicaciones "<<endl;
-					cout<<"c)programa que limpia todo tu pc "<<endl;
-					cout<<"d)Todas las anteriores "<<endl;
+					cout<<"1.Un cliente te pide hacer una base de datos ¿qué es lo primero que debes hacer?"<<endl;
+					cout<<"a)Empezar a construir la BDD "<<endl;
+					cout<<"b)Analizar los requisitos del cliente "<<endl;
+					cout<<"c)Descargar una base de datos de un tema parecido"<<endl;
+					cout<<"d)Comprar una base de datos"<<endl;
 					cin>>respuesta;
-				    if(respuesta=='a')
+				    if(respuesta=='b')
 						{
-					  		cout<<"la respuesta es correcta1"<<endl;
+					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
 				    	}
 					else
 						{
 							cout<<"La respuesta es incorrecta"<<endl;
+							cout<<"La respuesta era la B "<<endl;
 							contan=contan+1;
 						}	
-							cout<<"2-¿Que herramientas se utilizan para el mantenimiento preventivo ?"<<endl;
-							cout<<"a)Espuma limpiadora "<<endl;
-							cout<<"b)Desarmadores y Pulsera antiestatica "<<endl;
-							cout<<"c)Aire comprimido,borrador y brocha "<<endl;
-							cout<<"d)Todas las anteriores"<<endl;
+							cout<<"2.El diseño de una base de datos se lleva a cabo en tres etapas, estas son:"<<endl;
+							cout<<"a)Inicio, desarrollo y conclusión"<<endl;
+							cout<<"b)Ordenamiento, digitación, producción"<<endl;
+							cout<<"c)Ir a la oficina, prender el computador y compilar"<<endl;
+							cout<<"d)Diseño conceptual, diseño lógico y diseño físico"<<endl;
 							cin>>respuesta;	
 				    if(respuesta=='d')
 						{
@@ -732,31 +734,33 @@ main()
 					else
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
+							cout<<"La respuesta era la D "<<endl;
 							contan=contan+1;
 						}
-							cout<<"¿3-¿Cual es la manera mas eficas para hacer un mantenimiento ?"<<endl;
-							cout<<"a)desconectar el teclado y el mouse "<<endl;
-							cout<<"b)salvar los archivos importantes e instalar windows nuevamente"<<endl;
-							cout<<"c)limpiar la parte externa"<<endl;
-							cout<<"d)Todas son erroneas "<<endl;
+							cout<<"3.¿Qué es importante considerar al definir los requerimientos del cliente?"<<endl;
+							cout<<"a)La documentación detallada"<<endl;
+							cout<<"b)El modelo de datos"<<endl;
+							cout<<"c)La seguridad de la base de datos"<<endl;
+							cout<<"d)La carga de datos iniciales"<<endl;
 							cin>>respuesta;	
-				    if(respuesta=='b')
+				    if(respuesta=='a')
 					    {
-					    	cout<<"la respuesta es correcta3"<<endl;
+					    	cout<<"la respuesta es correcta"<<endl;
 					    	contap=contap+1;
 					    }
 					else
 						{
 					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    		cout<<"La respuesta era la A "<<endl;
 							contan=contan+1;
 					    }
-					    	cout<<"4-¿cada cuanto crees que se hace un mantenimiento preventivo?"<<endl;
-							cout<<"a)cada 10 años"<<endl;
-							cout<<"b)cada que el ordenador presenta fallas "<<endl;
-							cout<<"c)cuando se considere necesario para evitar posibles daños"<<endl;
-							cout<<"d)cada 3 meses de antelacion que instales programas nuevos "<<endl;
+					    	cout<<"4-¿Cuál NO es un factor crítico a la hora de diseñar una base de datos?"<<endl;
+							cout<<"a)Trabajar interactivamente con los usuarios, tanto como sea posible. "<<endl;
+							cout<<"b)Incluir en el modelado de los datos todo tipo de temáticas, analogías, semánticas y problemas de formología."<<endl;
+							cout<<"c)Utilizar una metodología estructurada durante todo el proceso de modelado de los datos. "<<endl;
+							cout<<"d)Emplear una metodología orientada a los datos (frente a una orientada a las funciones)."<<endl;
 							cin>>respuesta;
-					if(respuesta=='c')
+					if(respuesta=='b')
 						{
 					    	cout<<"la respuesta es correcta"<<endl;	
 					    	contap=contap+1;
@@ -764,13 +768,14 @@ main()
 					else
 						{
 					    	cout<<"La respuesta es incorrecta"<<endl;
+					    	cout<<"La respuesta era la B "<<endl;
 					    	contan=contan+1;
 					    }
-					    cout<<"5-¿que debo utilizar como refigerante?"<<endl;
-							cout<<"a)pasta termica "<<endl;
-							cout<<"b)crema de leche "<<endl;
-							cout<<"c)crema dental "<<endl;
-							cout<<"d)masa refigerante"<<endl;
+					    cout<<"5.¿Cuál de las opciones Sí es un componente de un sistema de información?"<<endl;
+							cout<<"a)Los dispositivos físicos (ordenadores, dispositivos de almacenamiento, etc.)"<<endl;
+							cout<<"b)Los dispositivos virtuales (Internet, Bluetooth, Wifi)"<<endl;
+							cout<<"c)Los dispositivos móviles (Celular, Tablet)"<<endl;
+							cout<<"d)Los dispositivos de comunicación (Radio, Televisor, etc)"<<endl;
 							cin>>respuesta;
 					if(respuesta=='a')
 						{
@@ -780,9 +785,276 @@ main()
 					else
 						{
 					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    	cout<<"La respuesta era la A "<<endl;
 					    	contan=contan+1;	
 					    }
-			break;
+					    cout<<"6.¿Cuál es el propósito de normalizar la base de datos?"<<endl;
+					cout<<"a)Evitar redundancia de datos"<<endl;
+					cout<<"b)Asegurar la seguridad"<<endl;
+					cout<<"c)Seleccionar la tecnología adecuada"<<endl;
+					cout<<"d)Cargar datos iniciales"<<endl;
+					cin>>respuesta;
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl;
+							cout<<"La respuesta era la A "<<endl;
+							contan=contan+1;
+						}	
+							cout<<"7.¿Qué tipo de base de datos se utiliza para almacenar datos no estructurados como documentos o imágenes?"<<endl;
+							cout<<"a)Base de datos relacional"<<endl;
+							cout<<"b)Base de datos no relacional"<<endl;
+							cout<<"c)Base de datos en memoria"<<endl;
+							cout<<"d)Base de datos distribuida"<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='b')
+						{
+							cout<<"la respuesta es correcta"<<endl;
+							contap=contap+1;
+					    }
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							cout<<"La respuesta era la B"<<endl;
+							contan=contan+1;
+						}
+							cout<<"8.En el diseño conceptual el objetivo es comprender: "<<endl;
+							cout<<"a)La perspectiva que cada usuario tiene de los datos. "<<endl;
+							cout<<"b)El funcionamiento de MYSQL"<<endl;
+							cout<<"c)La naturaleza del esquema de una base de datos"<<endl;
+							cout<<"d)A y C son correctas "<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='a')
+					    {
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    		cout<<"La respuesta era la A "<<endl;
+							contan=contan+1;
+					    }
+					    	cout<<"9.¿Cuál es el propósito principal del esquema conceptual en el diseño de bases de datos?"<<endl;
+							cout<<"a)Representar la estructura física de la base de datos. "<<endl;
+							cout<<"b)Definir las relaciones entre las tablas. "<<endl;
+							cout<<"c)Transmitir la semántica y significado de los datos a la empresa. "<<endl;
+							cout<<"d)Seleccionar la tecnología específica del SGBD."<<endl;
+							cin>>respuesta;
+					if(respuesta=='c')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;	
+					    	contap=contap+1;
+					    } 
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl;
+					    	cout<<"La respuesta era la C "<<endl;
+					    	contan=contan+1;
+					    }
+					    cout<<"10.¿Cuál es el propósito principal del diseño físico en el proceso de construcción de una base de datos?"<<endl;
+							cout<<"a)Representar la estructura lógica de la base de datos. "<<endl;
+							cout<<"b)Determinar las restricciones de seguridad. "<<endl;
+							cout<<"c)Seleccionar el SGBD específico."<<endl;
+							cout<<"d)Describir cómo se implementará físicamente el esquema lógico. "<<endl;
+							cin>>respuesta;
+					if(respuesta=='d')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    	cout<<"La respuesta era la D "<<endl;
+					    	contan=contan+1;	
+					    }
+					    	cout<<"11.¿Por qué es importante el esquema lógico en el proceso de diseño de bases de datos?"<<endl;
+					cout<<"a)Para definir las estructuras de almacenamiento físico. "<<endl;
+					cout<<"b)Para representar la estructura física de la base de datos. "<<endl;
+					cout<<"c)Para garantizar un acceso eficiente a los datos. "<<endl;
+					cout<<"d)Para comprender el funcionamiento de la empresa y el significado de los datos."<<endl;
+					cin>>respuesta;
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl;
+							cout<<"La respuesta era la D "<<endl;
+							contan=contan+1;
+						}	
+							cout<<"12.¿Qué es un Sistema Gestor de Bases de Datos (SGBD)?"<<endl;
+							cout<<"a)Una aplicación informática para el manejo de bases de datos."<<endl;
+							cout<<"b)Una base de datos."<<endl;
+							cout<<"c)Un programa para codificar"<<endl;
+							cout<<"d)Ninguna de las anteriores"<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='a')
+						{
+							cout<<"la respuesta es correcta"<<endl;
+							contap=contap+1;
+					    }
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							cout<<"La respuesta era la A "<<endl;
+							contan=contan+1;
+						}
+							cout<<"13.¿Cuál es la herramienta informática que permite crear, manipular, gestionar y eliminar los datos y las estructuras de una base de datos?"<<endl;
+							cout<<"a)Una base de datos jerárquica."<<endl;
+							cout<<"b)Un Sistema Gestor de Bases de Datos (SGBD)."<<endl;
+							cout<<"c)Una base de datos relacional."<<endl;
+							cout<<"d)Un sistema gestor de información personal"<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='b')
+					    {
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    		cout<<"La respuesta era la B "<<endl;
+							contan=contan+1;
+					    }
+					    	cout<<"14.¿Cuál de los siguientes acrónimos es un Sistema Gestor de Bases de Datos (SGBD)?"<<endl;
+							cout<<"a)SLIM"<<endl;
+							cout<<"b)Burgeon"<<endl;
+							cout<<"c)MySQL."<<endl;
+							cout<<"d)JAVA FX"<<endl;
+							cin>>respuesta;
+					if(respuesta=='c')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;	
+					    	contap=contap+1;
+					    } 
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl;
+					    	cout<<"La respuesta era la C "<<endl;
+					    	contan=contan+1;
+					    }
+					    cout<<"15.¿Cuál de las siguientes afirmaciones es cierta respecto a una base de datos relacional?"<<endl;
+							cout<<"a)Los datos se representan en tablas."<<endl;
+							cout<<"b)La respuesta a las consultas se configura en forma de tabla."<<endl;
+							cout<<"c)Las tablas son opcionales "<<endl;
+							cout<<"d)A y B son ciertas."<<endl;
+							cin>>respuesta;
+					if(respuesta=='d')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    	cout<<"La respuesta era la D "<<endl;
+					    	contan=contan+1;	
+					    }
+					    	cout<<"16.¿Qué es la clave primaria en una tabla de una base de datos relacional?"<<endl;
+					cout<<"a)Un campo que identifica unívocamente al registro (ej. DNI)."<<endl;
+					cout<<"b)Una clave aleatoria, normalmente de tipo numérico (ej. 0037)."<<endl;
+					cout<<"c)Clave de acceso"<<endl;
+					cout<<"d)Nombre de la persona"<<endl;
+					cin>>respuesta;
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl;
+							cout<<"La respuesta era la A "<<endl;
+							contan=contan+1;
+						}	
+							cout<<"17. ¿Qué son los requerimientos de un cliente?"<<endl;
+							cout<<"a)Son los campos que lleva una tabla"<<endl;
+							cout<<"b)Son las demandas, explícitas o implícitas, que un comprador hace de tu negocio"<<endl;
+							cout<<"c)Es la información recolectada por el cliente "<<endl;
+							cout<<"d)Todas las anteriores"<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='b')
+						{
+							cout<<"la respuesta es correcta"<<endl;
+							contap=contap+1;
+					    }
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							cout<<"La respuesta era la B "<<endl;
+							contan=contan+1;
+						}
+							cout<<"18. ¿Por qué es importante una base de datos?"<<endl;
+							cout<<"a)Porque recolecta, organiza y modifica datos importantes para una institución o empresa"<<endl;
+							cout<<"b)Porque permite que las personas vean datos de otros clientes. "<<endl;
+							cout<<"c)Porque resumen la vida de un cliente"<<endl;
+							cout<<"d)Porque ayuda a simplificar la recolección de dinero "<<endl;
+							cin>>respuesta;	
+				    if(respuesta=='a')
+					    {
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    		cout<<"La respuesta era la A "<<endl;
+							contan=contan+1;
+					    }
+					    	cout<<"19.¿Qué es la administración de base de datos?"<<endl;
+							cout<<"a)Trabajar con los usuarios, tanto como sea posible. "<<endl;
+							cout<<"b)Es un proceso de gestión de los datos recopilados en las empresas"<<endl;
+							cout<<"c)Utilizar una metodología de los datos. "<<endl;
+							cout<<"d)Emplear una metodología a las funciones."<<endl;
+							cin>>respuesta;
+					if(respuesta=='b')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;	
+					    	contap=contap+1;
+					    } 
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl;
+					    	cout<<"La respuesta era la B "<<endl;
+					    	contan=contan+1;
+					    }
+					    cout<<"20.¿Qué papel juega el usuario administrador de una base de datos?"<<endl;
+							cout<<"a)Se encarga de hacer encuestas a los usuarios"<<endl;
+							cout<<"b)Instala los software de bases de datos"<<endl;
+							cout<<"c)Aprende a utilizar herramientas informáticas"<<endl;
+							cout<<"d)Se encarga del mantenimiento, la seguridad y el funcionamiento de las bases de datos."<<endl;
+							cin>>respuesta;
+					if(respuesta=='d')
+						{
+					    	cout<<"la respuesta es correcta"<<endl;
+					    	contap=contap+1;
+					    }
+					else
+						{
+					    	cout<<"La respuesta es incorrecta"<<endl; 
+					    	cout<<"La respuesta era la D "<<endl;
+					    	contan=contan+1;	
+					    }
+					break;
+					
+						  
+					    
+					    
+					/*1.	Un cliente te pide hacer una base de datos ¿qué es lo primero que debes hacer?
+a)	Empezar a construir la BDD
+b)	Analizar los requisitos del cliente
+c)	Descargar una base de datos de un tema parecido
+d)	Comprar una base de datos
+*/
+		
 			case 6:
 					cout<<"PROGRAMAR SENTENCIAS SQL. "<<endl; 
 					cout<<"1-¿Cuáles son los pilares de la programación orientada a objetos?"<<endl;
